@@ -20,7 +20,7 @@ class NoteFactory extends Factory
         return [
             'user_id'=>1,
             'title'=>fake()->jobTitle(),
-            'body'=>fake()->realText(),
+            'body'=>fake()->paragraph(),
         ];
     }
 }
